@@ -8,6 +8,7 @@ pub mod actors;
 pub mod protocol;
 pub mod system;
 pub mod utils;
+pub mod auth_capnp;
 
 pub use actors::{Prover, Verifier};
 pub use protocol::ZKPProtocol;
